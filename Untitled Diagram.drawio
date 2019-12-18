@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-17T04:13:44.591Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="x0zFi0qAmna5AemF3Htp" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-18T03:32:34.220Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="02r_A3bnOupTH5Vqrx6x" version="12.4.2" type="github" pages="1">
   <diagram id="IsdMuzBa5LZ4HM4UeDoA" name="Page-1">
-    <mxGraphModel dx="1901" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="1165" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -31,8 +31,11 @@
         <mxCell id="XGGbo2MG5czj7z2PlUCv-75" value="Coral Activities" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="XGGbo2MG5czj7z2PlUCv-52">
           <mxGeometry x="160" y="141" width="110" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="XGGbo2MG5czj7z2PlUCv-60" value="temporary&amp;nbsp; storage/S3" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-950" y="1018" width="700" height="90" as="geometry"/>
+        <mxCell id="XGGbo2MG5czj7z2PlUCv-99" value="DynamoDB: process data" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="XGGbo2MG5czj7z2PlUCv-52">
+          <mxGeometry x="-170" y="-139" width="310" height="118" as="geometry"/>
+        </mxCell>
+        <mxCell id="XGGbo2MG5czj7z2PlUCv-60" value="S3: intermediate data" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="XGGbo2MG5czj7z2PlUCv-52">
+          <mxGeometry x="-550" y="-139" width="360" height="118" as="geometry"/>
         </mxCell>
         <mxCell id="XGGbo2MG5czj7z2PlUCv-6" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-930" y="1390" width="830" height="130" as="geometry"/>
@@ -103,7 +106,7 @@
         <mxCell id="XGGbo2MG5czj7z2PlUCv-36" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-950" y="1108" width="200" height="140" as="geometry"/>
         </mxCell>
-        <mxCell id="XGGbo2MG5czj7z2PlUCv-29" value="DataAggregationFramework" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="XGGbo2MG5czj7z2PlUCv-36">
+        <mxCell id="XGGbo2MG5czj7z2PlUCv-29" value="DataAggregator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="XGGbo2MG5czj7z2PlUCv-36">
           <mxGeometry y="20" width="200" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="XGGbo2MG5czj7z2PlUCv-30" value="Coral" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="XGGbo2MG5czj7z2PlUCv-36">
@@ -125,10 +128,10 @@
           <mxGeometry x="140" y="100" width="60" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="XGGbo2MG5czj7z2PlUCv-38" value="AggregatedData" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="1057" width="120" height="40" as="geometry"/>
+          <mxGeometry x="-937" y="1057" width="100" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="XGGbo2MG5czj7z2PlUCv-49" value="Outbound&lt;br&gt;Document" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="1057" width="110" height="40" as="geometry"/>
+          <mxGeometry x="-827" y="1057" width="110" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="XGGbo2MG5czj7z2PlUCv-50" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-565" y="1129" width="150" height="120" as="geometry"/>
@@ -167,16 +170,16 @@
           <mxGeometry x="75" y="80" width="75" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="XGGbo2MG5czj7z2PlUCv-58" value="Inbound&lt;br&gt;Document" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="1057" width="110" height="40" as="geometry"/>
+          <mxGeometry x="-712" y="1057" width="110" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="XGGbo2MG5czj7z2PlUCv-61" value="Data Model" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-387" y="870" width="120" height="35" as="geometry"/>
         </mxCell>
         <mxCell id="XGGbo2MG5czj7z2PlUCv-62" value="Metrics" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="1018" width="50" height="232" as="geometry"/>
+          <mxGeometry x="-240" y="990" width="50" height="260" as="geometry"/>
         </mxCell>
         <mxCell id="XGGbo2MG5czj7z2PlUCv-65" value="Encrypt/Decrypt" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="1018" width="50" height="232" as="geometry"/>
+          <mxGeometry x="-180" y="990" width="50" height="260" as="geometry"/>
         </mxCell>
         <mxCell id="XGGbo2MG5czj7z2PlUCv-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="XGGbo2MG5czj7z2PlUCv-29" target="XGGbo2MG5czj7z2PlUCv-67">
           <mxGeometry relative="1" as="geometry"/>
