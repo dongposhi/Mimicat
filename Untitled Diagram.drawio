@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-06T02:12:37.799Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="A93YhjKFDI8YOmwEXjy_" version="12.4.8" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-01-06T08:48:58.896Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="aUjRlRYCpbowJt0XjYow" version="12.4.8" type="github" pages="3">
   <diagram id="IsdMuzBa5LZ4HM4UeDoA" name="Page-1">
     <mxGraphModel dx="2608" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -306,6 +306,9 @@
         </mxCell>
         <mxCell id="b360PFjEsVWmX0-20nAe-9" value="Aggregated Data&lt;br&gt;Outbound Document&lt;br&gt;Inbound Document" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="b360PFjEsVWmX0-20nAe-18" vertex="1">
           <mxGeometry y="49.84105960264902" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Sdx_kpQhOKHm31b9Dcmt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VPEJ1JaMgokHMF3FO-Ii-1" source="b360PFjEsVWmX0-20nAe-19" target="VPEJ1JaMgokHMF3FO-Ii-10">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="b360PFjEsVWmX0-20nAe-19" value="Portal" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=1;direction=east;flipH=1;flipV=1;horizontal=1;" parent="VPEJ1JaMgokHMF3FO-Ii-1" vertex="1">
           <mxGeometry x="-816" y="200" width="58" height="40" as="geometry"/>
