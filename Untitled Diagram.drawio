@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-09T03:26:12.039Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="6-qrDyangECPfDNclrJj" version="12.4.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-01-09T13:41:43.181Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="GkTrbMx7Gh-OBBkbTrGd" version="12.4.9" type="github" pages="7">
   <diagram id="IsdMuzBa5LZ4HM4UeDoA" name="Page-1">
     <mxGraphModel dx="2368" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1113,7 +1113,7 @@
       <root>
         <mxCell id="jnynNmPV6OU60_kb9cuW-0"/>
         <mxCell id="jnynNmPV6OU60_kb9cuW-1" parent="jnynNmPV6OU60_kb9cuW-0"/>
-        <mxCell id="jnynNmPV6OU60_kb9cuW-2" value="Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=bottom;fontStyle=1" parent="jnynNmPV6OU60_kb9cuW-1" vertex="1">
+        <mxCell id="jnynNmPV6OU60_kb9cuW-2" value="Backend Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=bottom;fontStyle=1" parent="jnynNmPV6OU60_kb9cuW-1" vertex="1">
           <mxGeometry x="-900" y="246" width="480" height="280" as="geometry"/>
         </mxCell>
         <mxCell id="jnynNmPV6OU60_kb9cuW-3" value="Workflow Engine" style="whiteSpace=wrap;html=1;verticalAlign=bottom;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="jnynNmPV6OU60_kb9cuW-1" vertex="1">
@@ -1386,6 +1386,43 @@
         </mxCell>
         <mxCell id="st7fAqlw8nDmIb4xHWAm-3" value="Tables" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="st7fAqlw8nDmIb4xHWAm-4">
           <mxGeometry x="20" y="20" width="70" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tiO3AUULnrZwriuigP1a" name="Page-7">
+    <mxGraphModel dx="732" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="JayfJEaiGWUxVD_mMr_T-0"/>
+        <mxCell id="JayfJEaiGWUxVD_mMr_T-1" parent="JayfJEaiGWUxVD_mMr_T-0"/>
+        <mxCell id="JayfJEaiGWUxVD_mMr_T-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="JayfJEaiGWUxVD_mMr_T-1" source="JayfJEaiGWUxVD_mMr_T-2" target="JayfJEaiGWUxVD_mMr_T-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="180" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JayfJEaiGWUxVD_mMr_T-2" value="Daily files on Andes" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;align=center;" vertex="1" parent="JayfJEaiGWUxVD_mMr_T-1">
+          <mxGeometry x="280" y="80" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="JayfJEaiGWUxVD_mMr_T-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JayfJEaiGWUxVD_mMr_T-1" source="JayfJEaiGWUxVD_mMr_T-4" target="JayfJEaiGWUxVD_mMr_T-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="JayfJEaiGWUxVD_mMr_T-4" value="Filter sellers ISA need" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="JayfJEaiGWUxVD_mMr_T-1">
+          <mxGeometry x="240" y="190" width="180" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="JayfJEaiGWUxVD_mMr_T-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JayfJEaiGWUxVD_mMr_T-1" source="JayfJEaiGWUxVD_mMr_T-11" target="JayfJEaiGWUxVD_mMr_T-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="JayfJEaiGWUxVD_mMr_T-11" value="read account data from ODS" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="JayfJEaiGWUxVD_mMr_T-1">
+          <mxGeometry x="240" y="310" width="180" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="JayfJEaiGWUxVD_mMr_T-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JayfJEaiGWUxVD_mMr_T-1" source="JayfJEaiGWUxVD_mMr_T-13" target="JayfJEaiGWUxVD_mMr_T-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="JayfJEaiGWUxVD_mMr_T-13" value="transform data to SMCC format" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="JayfJEaiGWUxVD_mMr_T-1">
+          <mxGeometry x="240" y="430" width="180" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="JayfJEaiGWUxVD_mMr_T-15" value="upload to EDX" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="JayfJEaiGWUxVD_mMr_T-1">
+          <mxGeometry x="240" y="550" width="180" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
