@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-10T07:54:02.074Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="O9oWD4tsxuhYQ0UXDXuS" version="12.5.1" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-01-10T07:55:46.622Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="rsA5lCJYYcUhdx-PxtSl" version="12.5.1" type="github" pages="9">
   <diagram id="IsdMuzBa5LZ4HM4UeDoA" name="Page-1">
     <mxGraphModel dx="2368" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1438,7 +1438,7 @@
         <mxCell id="0ElgCT8k8BKthGEaoL24-3" value="Workflow Engine" style="whiteSpace=wrap;html=1;verticalAlign=bottom;fontStyle=1;" vertex="1" parent="0ElgCT8k8BKthGEaoL24-1">
           <mxGeometry x="-1010" y="460" width="130" height="109" as="geometry"/>
         </mxCell>
-        <mxCell id="0ElgCT8k8BKthGEaoL24-122" value="On boarding service" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;verticalAlign=top;fontStyle=1" vertex="1" parent="0ElgCT8k8BKthGEaoL24-1">
+        <mxCell id="0ElgCT8k8BKthGEaoL24-122" value="On-board service" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;verticalAlign=top;fontStyle=1" vertex="1" parent="0ElgCT8k8BKthGEaoL24-1">
           <mxGeometry x="-1100" y="140" width="690" height="210" as="geometry"/>
         </mxCell>
         <mxCell id="0ElgCT8k8BKthGEaoL24-78" value="publish" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="0ElgCT8k8BKthGEaoL24-1" source="0ElgCT8k8BKthGEaoL24-2" target="0ElgCT8k8BKthGEaoL24-68">
