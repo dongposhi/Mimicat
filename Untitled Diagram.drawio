@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-14T01:18:08.457Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="idWD_c19QoffUqwSk-Vt" version="12.5.1" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-01-16T04:36:41.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="1hmhsC0XPr5RiAUjo9vl" version="12.5.1" type="github" pages="9">
   <diagram id="IsdMuzBa5LZ4HM4UeDoA" name="Page-1">
     <mxGraphModel dx="2368" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1313,7 +1313,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t_EV5sgTfIyIawYNv8cj" name="Page-8">
-    <mxGraphModel dx="2368" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2541" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="F3uEUtCHDIyparZBbTi9-0"/>
         <mxCell id="F3uEUtCHDIyparZBbTi9-1" parent="F3uEUtCHDIyparZBbTi9-0"/>
@@ -1336,12 +1336,17 @@
         <mxCell id="F3uEUtCHDIyparZBbTi9-2" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;amazon ember&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; white-space: normal&quot;&gt;Merchant Attributes JP&lt;/span&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.gauge;" parent="F3uEUtCHDIyparZBbTi9-1" vertex="1">
           <mxGeometry x="-843" y="174" width="32.4" height="31.5" as="geometry"/>
         </mxCell>
-        <mxCell id="F3uEUtCHDIyparZBbTi9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="F3uEUtCHDIyparZBbTi9-1" source="F3uEUtCHDIyparZBbTi9-4" target="F3uEUtCHDIyparZBbTi9-6" edge="1">
+        <mxCell id="F3uEUtCHDIyparZBbTi9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="F3uEUtCHDIyparZBbTi9-1" source="F3uEUtCHDIyparZBbTi9-4" target="F3uEUtCHDIyparZBbTi9-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-823" y="544" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F3uEUtCHDIyparZBbTi9-4" value="&lt;div&gt;payments-bi&lt;/div&gt;&lt;div&gt;isa-compliance-data&lt;/div&gt;&lt;div&gt;m-6-dataset-prod&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="F3uEUtCHDIyparZBbTi9-1" vertex="1">
+        <mxCell id="Kz6M8oE3o0-twbP_uJKL-6" value="EDX trigger" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=4;" vertex="1" connectable="0" parent="F3uEUtCHDIyparZBbTi9-5">
+          <mxGeometry x="0.0556" y="1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F3uEUtCHDIyparZBbTi9-4" value="&lt;div&gt;&amp;lt;&amp;lt;EDX&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;payments-bi&lt;/div&gt;&lt;div&gt;isa-compliance-data&lt;/div&gt;&lt;div&gt;m-6-dataset-prod&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="F3uEUtCHDIyparZBbTi9-1" vertex="1">
           <mxGeometry x="-884.5" y="350" width="113" height="76" as="geometry"/>
         </mxCell>
         <mxCell id="F3uEUtCHDIyparZBbTi9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="F3uEUtCHDIyparZBbTi9-1" source="F3uEUtCHDIyparZBbTi9-6" target="F3uEUtCHDIyparZBbTi9-14" edge="1">
@@ -1350,13 +1355,21 @@
         <mxCell id="F3uEUtCHDIyparZBbTi9-6" value="DJS:&amp;nbsp;/ISA_DATA_COLLATION" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" parent="F3uEUtCHDIyparZBbTi9-1" vertex="1">
           <mxGeometry x="-878" y="534" width="100" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="F3uEUtCHDIyparZBbTi9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;" parent="F3uEUtCHDIyparZBbTi9-1" source="F3uEUtCHDIyparZBbTi9-14" target="F3uEUtCHDIyparZBbTi9-16" edge="1">
+        <mxCell id="F3uEUtCHDIyparZBbTi9-17" value="publish" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;" parent="F3uEUtCHDIyparZBbTi9-1" source="F3uEUtCHDIyparZBbTi9-14" target="F3uEUtCHDIyparZBbTi9-16" edge="1">
           <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Kz6M8oE3o0-twbP_uJKL-4" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=4;" edge="1" parent="F3uEUtCHDIyparZBbTi9-1" source="F3uEUtCHDIyparZBbTi9-14" target="F3uEUtCHDIyparZBbTi9-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Kz6M8oE3o0-twbP_uJKL-5" value="read" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=4;" vertex="1" connectable="0" parent="Kz6M8oE3o0-twbP_uJKL-4">
+          <mxGeometry x="-0.0303" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="F3uEUtCHDIyparZBbTi9-14" value="CDPW" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" parent="F3uEUtCHDIyparZBbTi9-1" vertex="1">
           <mxGeometry x="-630" y="534" width="110" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="F3uEUtCHDIyparZBbTi9-16" value="&lt;div style=&quot;text-align: center ; white-space: normal&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;monaco, menlo, consolas, courier new, monospace&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;white-space: pre-wrap ; background-color: rgb(245 , 245 , 245)&quot;&gt;isa_smcc&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center ; white-space: normal&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;monaco, menlo, consolas, courier new, monospace&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;white-space: pre-wrap ; background-color: rgb(245 , 245 , 245)&quot;&gt;isa-seller-info&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center ; white-space: normal&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;monaco, menlo, consolas, courier new, monospace&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;white-space: pre-wrap ; background-color: rgb(245 , 245 , 245)&quot;&gt;isa-new-seller-soa-prod&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="F3uEUtCHDIyparZBbTi9-1" vertex="1">
+        <mxCell id="F3uEUtCHDIyparZBbTi9-16" value="&lt;div style=&quot;text-align: center ; white-space: normal&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;monaco, menlo, consolas, courier new, monospace&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;white-space: pre-wrap ; background-color: rgb(245 , 245 , 245)&quot;&gt;&amp;lt;&amp;lt;EDX&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center ; white-space: normal&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;monaco, menlo, consolas, courier new, monospace&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;white-space: pre-wrap ; background-color: rgb(245 , 245 , 245)&quot;&gt;isa_smcc&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center ; white-space: normal&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;monaco, menlo, consolas, courier new, monospace&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;white-space: pre-wrap ; background-color: rgb(245 , 245 , 245)&quot;&gt;isa-seller-info&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center ; white-space: normal&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;monaco, menlo, consolas, courier new, monospace&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;white-space: pre-wrap ; background-color: rgb(245 , 245 , 245)&quot;&gt;isa-new-seller-soa-prod&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="F3uEUtCHDIyparZBbTi9-1" vertex="1">
           <mxGeometry x="-623" y="350" width="120" height="76" as="geometry"/>
         </mxCell>
         <mxCell id="F3uEUtCHDIyparZBbTi9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="F3uEUtCHDIyparZBbTi9-1" source="F3uEUtCHDIyparZBbTi9-18" target="F3uEUtCHDIyparZBbTi9-16" edge="1">
@@ -1402,7 +1415,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wQcQITNqmtt7JwGWDtDQ" name="Page-9">
-    <mxGraphModel dx="2368" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2541" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0ElgCT8k8BKthGEaoL24-0"/>
         <mxCell id="0ElgCT8k8BKthGEaoL24-1" parent="0ElgCT8k8BKthGEaoL24-0"/>
